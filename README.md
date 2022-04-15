@@ -13,7 +13,7 @@
 
 [5.    Smooth Mover](#5)
 
-[5.    Boid](#5)
+[5.    Boid](#6)
 
 
 ## <a name="1"></a> Greenfoot
