@@ -27,4 +27,4 @@ Bei diesem Algoithmus ergibt sich für das Flugverhalten der Vögel ein sehr int
 
 ## <a name="3"></a> Umsetzung der Idee
 
-#  Smooth Mover
+Smooth Mover
