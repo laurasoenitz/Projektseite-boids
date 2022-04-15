@@ -45,3 +45,5 @@ Zu dem Code des Smooth Mover habe ich wei neue Codes hinzugefügt. Einmal die Fu
 Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten Objekten berechnet. 
 
 ![Degree ding](https://user-images.githubusercontent.com/88386035/163636303-d29fc047-8837-4452-90a4-864e86100e62.PNG)
+
+Diese beide Funktionen sind später wichtig um den Code für den Boid zu verstehen.
