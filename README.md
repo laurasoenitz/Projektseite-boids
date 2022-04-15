@@ -9,6 +9,7 @@
 
 [3.   Umsetzung der Idee](#3)
 
+[4.    Smooth Mover](#4)
 
 ## <a name="1"></a> Greenfoot
 
