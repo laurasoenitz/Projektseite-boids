@@ -46,4 +46,4 @@ Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten 
 
 ![Degree ding](https://user-images.githubusercontent.com/88386035/163636303-d29fc047-8837-4452-90a4-864e86100e62.PNG)
 
-Diese beide Funktionen sind später wichtig um den Code für den Boid zu verstehen.
+Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verstehen.
