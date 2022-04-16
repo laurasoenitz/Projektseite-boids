@@ -15,7 +15,7 @@
 
 [6.    Boid](#6)
 
-[6.1   setSwarmRotationGetCloser](#7)
+[6.1  _______ setSwarmRotationGetCloser](#7)
 
 [6.2   setSwarmRotationGetAway](#8)
 
