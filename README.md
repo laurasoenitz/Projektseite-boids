@@ -66,16 +66,25 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
  
 <a name="7"></a> constructor:
 
+![constructor](https://user-images.githubusercontent.com/88386035/163671330-6627df9c-6994-45b3-ac78-d5b8bca00816.PNG)
+
 
 
 <a name="8"></a> setSwarmRotationGetCloser: 
+![Get Closer](https://user-images.githubusercontent.com/88386035/163671348-dfa47cd1-2c3d-41d3-826e-fd867a6341ef.PNG)
 
 <a name="9"></a> setSwarmRotatiionGetAway:
+![GetAway version 2](https://user-images.githubusercontent.com/88386035/163671342-0db832b2-970a-497f-bf07-956ed4cf8218.PNG)
 
 <a name="10"></a> turnAtWorldEdge:
+![turn mit Edge](https://user-images.githubusercontent.com/88386035/163671362-64319aed-981d-4b36-98eb-66c8aa201d5a.PNG)
+![edge 2](https://user-images.githubusercontent.com/88386035/163671377-48df3459-648c-435a-8011-267bd1545b8a.PNG)
+![Teil 3 edge](https://user-images.githubusercontent.com/88386035/163671379-916f3bab-546b-4939-a4c3-d5c97821652e.PNG)
+
  
 <a name="11"></a>  Reflexion des Projekts:
- 
+
+
  
 ## <a name="12"></a> Stundenblog
 
