@@ -68,6 +68,8 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
  
 <a name="7"></a> constructor:
 
+Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Hier bewirkt der Code, dass die Größe des Objekts kleiner wird. Das Objekt war nähmlich anfangs zu groß und musste daher verkleinert werden.
+
 ![constructor](https://user-images.githubusercontent.com/88386035/163671330-6627df9c-6994-45b3-ac78-d5b8bca00816.PNG)
 
 
