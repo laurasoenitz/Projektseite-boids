@@ -62,7 +62,7 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
 
 <a name="6"></a>  Boid:
  
-<a name="7"></a> setSwarmRotationGetCloser:
+     <a name="7"></a> setSwarmRotationGetCloser:
 
 <a name="8"></a>  setSwarmRotatiionGetAway: 
 
