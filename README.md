@@ -42,11 +42,11 @@ Bei diesem Algoithmus ergibt sich für das Flugverhalten der Vögel ein sehr int
 
 ## <a name="3"></a> Umsetzung der Idee
 
- <a name="4"></a>  Actor: 
+### <a name="4"></a>  Actor: 
  
 Der Actor  ist ein Objekt, dass in der Greenfoot Welt existiert. Jeder Actor hat einen Ort in der Welt und ein Erscheinungsbild. Jedes Objekt, das in der Welt erscheinen soll muss eine Unterklasse vom Actor sein. Die Actor-Methoden stehen allen Unterklassen von Actor zur Verfügung. Die Unterklassen können ihr eigenes Verhalten und Ausssehen definieren.
  
- <a name="5"></a>  Smooth Mover:
+### <a name="5"></a>  Smooth Mover:
  
 Der Smooth Mover ist eine Unterklasse von Actor. Dieser ermöglicht kleine präzise Bewegungen (z. B. Bewegungen von 1 Pixel oder weniger), die nicht an Präzision verlieren. Der Smooth Mover kommt schon mit bestimmten Funktionen, genau wie der Actor. Diese Funktionen stehen den Unterklassen zu Verfügung. 
 
