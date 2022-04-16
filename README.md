@@ -15,7 +15,7 @@
 
 [6.    Boid](#6)
 
-[6.1  constructer](#7)
+[6.1  constructor](#7)
 
 [6.2  setSwarmRotationGetCloser](#8)
 
@@ -64,7 +64,7 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
 
 ### <a name="6"></a>  Boid:
  
-<a name="7"></a> constructer:
+<a name="7"></a> constructor:
 
 
 
