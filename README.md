@@ -76,12 +76,19 @@ Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Der Code bewir
 
 SetSwarnRotationGetCloser bewirkt
 
+![Get Closer](https://user-images.githubusercontent.com/88386035/163673682-e6bfecde-8d17-4f4c-8419-71fed25f71e8.PNG)
+
 
 <a name="9"></a> setSwarmRotationGetAway:
+
+![GetAway version 2](https://user-images.githubusercontent.com/88386035/163673688-2af2a003-8236-4d92-89e0-84cb6e51db49.PNG)
 
 
 <a name="10"></a> turnAtWorldEdge:
 
+![1](https://user-images.githubusercontent.com/88386035/163673705-af37f9d5-a8db-4bf8-bdb9-6d068c5b6b44.PNG)
+![2](https://user-images.githubusercontent.com/88386035/163673715-bdf5ff89-f597-4d44-a29d-7b22ce7371ea.PNG)
+![3](https://user-images.githubusercontent.com/88386035/163673716-98b33937-0dda-4820-90d1-8982b5fb85d9.PNG)
 
  
 <a name="11"></a>  Reflexion des Projekts:
