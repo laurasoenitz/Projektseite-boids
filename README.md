@@ -13,9 +13,9 @@
 
 [5.    Smooth Mover](#5)
 
-[5.    Boid](#6)
+[6.    Boid](#6)
 
-[5.    Reflexion des Projekt](#7)
+[7.    Reflexion des Projekts](#7)
 
 ## <a name="1"></a> Greenfoot
 
