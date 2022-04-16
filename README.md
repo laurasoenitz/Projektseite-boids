@@ -15,7 +15,7 @@
 
 [6.    Boid](#6)
 
-      [6.    Boid](#6)
+[6.1   setSwarmRotationGetCloser](#7)
 
 [7.    Reflexion des Projekts](#7)
 
@@ -58,7 +58,7 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
 
  <a name="6"></a>  Boid:
  
-setSwarmRotationGetCloser:
+ <a name="7"></a> setSwarmRotationGetCloser:
 
 setSwarmRotatiionGetAway: 
 
