@@ -56,6 +56,13 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
 
  <a name="6"></a>  Boid:
  
+setSwarmRotationGetCloser:
+
+setSwarmRotatiionGetAway: 
+
+turnAtWorldEdge:
+
+ 
   <a name="7"></a>  Reflexion des Projekts:
  
  
