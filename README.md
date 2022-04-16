@@ -82,8 +82,10 @@ Wenn der counter ungleich 0 ist, wird dann die neue Rotation berechnet. Dafür r
 
 ![Get Closer](https://user-images.githubusercontent.com/88386035/163673682-e6bfecde-8d17-4f4c-8419-71fed25f71e8.PNG)
 
-
 <a name="9"></a> setSwarmRotationGetAway:
+
+SetSwarmRotationGetAway bewirkt, eine Abstoßung zwischen den Boids, sobald sie sich zu nahe kommen.
+
 
 ![GetAway version 2](https://user-images.githubusercontent.com/88386035/163673688-2af2a003-8236-4d92-89e0-84cb6e51db49.PNG)
 
