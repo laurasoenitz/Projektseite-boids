@@ -74,7 +74,11 @@ Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Der Code bewir
 
 <a name="8"></a> setSwarmRotationGetCloser: 
 
-SetSwarnRotationGetCloser bewirkt
+SetSwarnRotationGetCloser bewirkt, dass der Boid sich an andere Boids in der Umgebung anpasst. Genauer gesagt passt er seine eigene Rotation an die Rotation der anderen Boids in der Umgebung an. 
+
+Damit der Boid seine Rotation anpasst, wird als estes eine Liste von den Boids gemacht die sich im Radius von 80 befinden. Von diesen werden dann die Rotationen gemessen. Die Rotationen werden addiert. Außerdem wird pro Boid der counter um 1 erhöht. 
+
+Wenn der counter ungleich 0 ist, wird dann die neue Rotation berechnet. Dafür rechne ich erstmal den Mittelwert aus den Rotationen aus, indem man die addierten Rotationen durch den Counter rechnet. Davon nehme ich 10 Prozent und addiere dies mit 90 Prozent der eigenen Rotation. Dies bewirkt eine Anpassung an den anderen Boid, aber dadurch, dass man 90 Prozent von der eigenen Rotation nimmt, passiert die Anpassung nicht zu schnell. 
 
 ![Get Closer](https://user-images.githubusercontent.com/88386035/163673682-e6bfecde-8d17-4f4c-8419-71fed25f71e8.PNG)
 
