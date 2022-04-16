@@ -15,15 +15,17 @@
 
 [6.    Boid](#6)
 
-[6.1  setSwarmRotationGetCloser](#7)
+[6.1  constructer](#7)
 
-[6.2   setSwarmRotationGetAway](#8)
+[6.2  setSwarmRotationGetCloser](#8)
 
-[6.3   turnAtWorldEdge](#9)
+[6.3   setSwarmRotationGetAway](#9)
 
-[7.    Reflexion des Projekts](#10)
+[6.4  turnAtWorldEdge](#10)
 
-[8.    Stundenblog](#11)
+[7.    Reflexion des Projekts](#11)
+
+[8.    Stundenblog](#12)
 
 ## <a name="1"></a> Greenfoot
 
@@ -62,17 +64,20 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
 
 ### <a name="6"></a>  Boid:
  
-<a name="7"></a> setSwarmRotationGetCloser:
+<a name="7"></a> constructer:
 
-<a name="8"></a>  setSwarmRotatiionGetAway: 
 
-<a name="9"></a> turnAtWorldEdge:
 
+<a name="8"></a> setSwarmRotationGetCloser: 
+
+<a name="9"></a> setSwarmRotatiionGetAway:
+
+<a name="10"></a> turnAtWorldEdge:
  
-<a name="10"></a>  Reflexion des Projekts:
+<a name="11"></a>  Reflexion des Projekts:
  
  
-## <a name="11"></a> Stundenblog
+## <a name="12"></a> Stundenblog
 
 Der Link zu meinen Stundenblog des zweiten Projekts:
 https://github.com/laurasoenitz/Informartik-Projekt-2
