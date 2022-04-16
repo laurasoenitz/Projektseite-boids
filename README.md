@@ -68,13 +68,12 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
  
 <a name="7"></a> constructor:
 
-Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Hier bewirkt der Code, dass die Größe des Objekts kleiner wird. Das Objekt war nähmlich anfangs zu groß und musste daher verkleinert werden.
+Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Der Code bewirkt in dem Fall, dass die Größe des Objekts kleiner wird. Das Objekt war nähmlich anfangs zu groß und musste daher verkleinert werden.
 
 ![constructor](https://user-images.githubusercontent.com/88386035/163671330-6627df9c-6994-45b3-ac78-d5b8bca00816.PNG)
 
-
-
 <a name="8"></a> setSwarmRotationGetCloser: 
+
 ![Get Closer](https://user-images.githubusercontent.com/88386035/163671348-dfa47cd1-2c3d-41d3-826e-fd867a6341ef.PNG)
 
 <a name="9"></a> setSwarmRotatiionGetAway:
