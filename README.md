@@ -56,11 +56,11 @@ Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten 
 
 Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verstehen.
 
- <a name="6"></a>  Boid:
+<a name="6"></a>  Boid:
  
- <a name="7"></a> setSwarmRotationGetCloser:
+   <a name="7"></a> setSwarmRotationGetCloser:
 
-setSwarmRotatiionGetAway: 
+  setSwarmRotatiionGetAway: 
 
 turnAtWorldEdge:
 
