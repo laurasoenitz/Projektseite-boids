@@ -15,6 +15,8 @@
 
 [6.    Boid](#6)
 
+   [6.    Boid](#6)
+
 [7.    Reflexion des Projekts](#7)
 
 [8.    Stundenblog](#8)
