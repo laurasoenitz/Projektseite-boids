@@ -17,6 +17,8 @@
 
 [7.    Reflexion des Projekts](#7)
 
+[8.    Stundenblog](#8)
+
 ## <a name="1"></a> Greenfoot
 
 Ich wollte das letzte Projekt ohne Blocksprache machen, da ich diese beim letzten Mal benutzt habe. Ich habe mich nach Absprache mit Herrn Buhl für Greenfoot entschieden. Greenfoot ist eine interaktive Java-Entwicklungsumgebung, die für Anfänger sehr gut geeignet ist. Dabei war mein Ziel das ich die Programmiersprache Java kennenlerne und vestehe. Die Entwicklung von Simulation und interaktiven Spielen ist mit Greenfoot gut zu erstellen und daher fand ich Greenfoot sehr ansprechend und habe es für mein Projekt ausgewählt.
@@ -57,3 +59,7 @@ Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verste
   <a name="7"></a>  Reflexion des Projekts:
  
  
+## <a name="8"></a> Stundenblog
+
+Der Link zu meinen Stundenblog des zweiten Projekts:
+https://github.com/laurasoenitz/Informartik-Projekt-2
