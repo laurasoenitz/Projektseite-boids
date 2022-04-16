@@ -74,9 +74,10 @@ Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Der Code bewir
 
 <a name="8"></a> setSwarmRotationGetCloser: 
 
+
 ![Get Closer](https://user-images.githubusercontent.com/88386035/163671348-dfa47cd1-2c3d-41d3-826e-fd867a6341ef.PNG)
 
-<a name="9"></a> setSwarmRotatiionGetAway:
+<a name="9"></a> setSwarmRotationGetAway:
 ![GetAway version 2](https://user-images.githubusercontent.com/88386035/163671342-0db832b2-970a-497f-bf07-956ed4cf8218.PNG)
 
 <a name="10"></a> turnAtWorldEdge:
