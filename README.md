@@ -19,7 +19,7 @@
 
 ## <a name="1"></a> Greenfoot
 
-Ich wollte als letztes Projekt ohne Blocksprache machen. Ich habe mich nach Absprache mit Herrn Buhl für Greenfoot entschieden. Greenfoot ist eine interaktive Java-Entwicklungsumgebung, die für Anfänger sehr gut geeignet ist. Dabei war mein Ziel das ich die Programmiersprache Java kennenlerne und vestehe. Die Entwicklung von Simulation und interaktiven Spielen ist mit Greenfoot gut zu erstellen und daher fand ich Greenfoot sehr ansprechend und habe es für mein Projekt ausgewählt.
+Ich wollte das letzte Projekt ohne Blocksprache machen, da ich diese beim letzten Mal benutzt habe. Ich habe mich nach Absprache mit Herrn Buhl für Greenfoot entschieden. Greenfoot ist eine interaktive Java-Entwicklungsumgebung, die für Anfänger sehr gut geeignet ist. Dabei war mein Ziel das ich die Programmiersprache Java kennenlerne und vestehe. Die Entwicklung von Simulation und interaktiven Spielen ist mit Greenfoot gut zu erstellen und daher fand ich Greenfoot sehr ansprechend und habe es für mein Projekt ausgewählt.
 
 ## <a name="2"></a> Idee
  
@@ -51,3 +51,9 @@ Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten 
 ![Degree ding](https://user-images.githubusercontent.com/88386035/163636303-d29fc047-8837-4452-90a4-864e86100e62.PNG)
 
 Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verstehen.
+
+ <a name="6"></a>  Boid:
+ 
+  <a name="7"></a>  Reflexion des Projekts:
+ 
+ 
