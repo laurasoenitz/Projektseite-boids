@@ -1,5 +1,7 @@
 # Projektseite-boids
 
+![Boids](https://user-images.githubusercontent.com/88386035/163671548-1aeb06dd-2108-4ae3-b496-82953d4b9ea8.PNG)
+
 ## Inhaltsverzeichnis 
 
 
