@@ -96,6 +96,12 @@ Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachb
 
 <a name="10"></a> turnAtWorldEdge:
 
+turnAtWorldEdge führt dazu, dass der Boid sich von der Kante und der Ecke entfernt. 
+
+Kante: 
+
+Ecke:
+
 ![1](https://user-images.githubusercontent.com/88386035/163673705-af37f9d5-a8db-4bf8-bdb9-6d068c5b6b44.PNG)
 ![2](https://user-images.githubusercontent.com/88386035/163673715-bdf5ff89-f597-4d44-a29d-7b22ce7371ea.PNG)
 ![3](https://user-images.githubusercontent.com/88386035/163673716-98b33937-0dda-4820-90d1-8982b5fb85d9.PNG)
@@ -103,7 +109,7 @@ Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachb
  
 ## <a name="11"></a>  Reflexion des Projekts:
 
-Die Boids efüllen alle drei Regeln die sie bei dieser Simulation befolgen sollen. Mit mehr Zeit hätte man jetzt noch das Problem lösen können das sie sich andauernd ständig gegenseitig anpassen. Dadurch befinden sie sich immer noch sehr oft zu nah beeinander und bewegen sich dann längere Zeit auf einem Fleck. Dies könnte man noch verbessern, indem man die Boids in eine Rangfolge setzt und es so einen Anführer gibt, an den sich dann alle anpassen. Der Anführer könnte dann auch immer wieder wechseln, wie bei einen richtigen Vogelschwarm. Außerdem könnte man dann auch eventuell das Porblem lösen, dass manchmal einer sich vom Schwarm entfernt. Dadurch wird das Problem gelöst werden und die Simulation würde noch besser funktionieren. Trotzdem ist es meiner Meinung nach das Projekt ganz gut gelungen, trotz meiner zuerst wenigen Kentnisse von Java. 
+Die Boids efüllen alle drei Regeln die sie bei dieser Simulation befolgen sollen. Mit mehr Zeit hätte man jetzt noch das Problem lösen können das sie sich andauernd ständig gegenseitig anpassen. Dadurch befinden sie sich immer noch sehr oft zu nah beeinander und bewegen sich dann längere Zeit auf einem Fleck. Dies könnte man noch verbessern, indem man die Boids in eine Rangfolge setzt und es so einen Anführer gibt, an den sich dann alle anpassen. Der Anführer könnte dann auch immer wieder wechseln, wie bei einen richtigen Vogelschwarm. Außerdem könnte man dann auch eventuell das Porblem lösen, dass manchmal einer sich vom Schwarm entfernt. Dadurch wird das Problem gelöst werden und die Simulation würde noch besser funktionieren. Trotzdem ist meiner Meinung nach das Projekt ganz gut gelungen, trotz meiner zuerst wenigen Kentnisse von Java. 
 
  
 ## <a name="12"></a> Stundenblog
