@@ -88,7 +88,7 @@ Wenn der counter ungleich 0 ist, wird dann die neue Rotation berechnet. Dafür r
 
 SetSwarmRotationGetAway bewirkt, eine Abstoßung zwischen den Boids, sobald sie sich zu nahe kommen.
 
-Damit die Boids sich abstoßen, wird als erste eine Liste von den Boids gemacht, die sich im Radius von 40 befinden. Von diesen Boids wird dann die Rotation gemessen und diese werden addiert. Außerdem misst man den Winkel zu den Nachbarn (DegreesToNeighbor).  Der counter um 1 erhöht pro Boid. 
+Damit die Boids sich abstoßen, wird als erste eine Liste von den Boids gemacht, die sich im Radius von 40 befinden. Von diesen Boids wird dann die Rotation gemessen und diese werden addiert. Außerdem misst man den Winkel zu den Nachbarn (DegreesToNeighbor).  Der counter wird pro Boid in der Liste um 1 erhöht. 
 
 Wenn all diese Werte vorhanden sind und der counter ungleich Null ist wird dann eine neue Rotation für den Boid berechnet. Dabei ist es wichtig, dass die neue Rotation ähnlich zu den Nachbarn ist, jedoch auch eine Abstoßung bewrikt.
 
