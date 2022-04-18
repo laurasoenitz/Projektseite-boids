@@ -60,7 +60,7 @@ Einmal die Funktion atWorldEdge. Mit dieser wird getestet, ob der Boid sich an e
 
  ![AtWorldEdge](https://user-images.githubusercontent.com/88386035/163636217-6b202c5e-2dcf-4655-a4c8-20adea4af3af.PNG)
 
-Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten Objekten berechnet. 
+Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten Position berechnet. 
 
 ![Degree ding](https://user-images.githubusercontent.com/88386035/163636303-d29fc047-8837-4452-90a4-864e86100e62.PNG)
 
