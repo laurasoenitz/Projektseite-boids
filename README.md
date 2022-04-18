@@ -76,7 +76,7 @@ Der constructor wird aufgerufen, sobald das Objekt erstellt wird. Der Code bewir
 
 SetSwarnRotationGetCloser bewirkt, dass der Boid sich an andere Boids in der Umgebung anpasst. Genauer gesagt passt er seine eigene Rotation an die Rotation der anderen Boids in der Umgebung an. 
 
-Damit der Boid seine Rotation anpasst, wird als estes eine Liste von den Boids gemacht die sich im Radius von 80 befinden. Von diesen werden dann die Rotationen gemessen. Die Rotationen werden addiert. Außerdem wird pro Boid der counter um 1 erhöht. 
+Damit der Boid seine Rotation anpasst, wird als estes eine Liste von den Boids gemacht, die sich im Radius von 80 befinden. Von diesen wird dann die Rotationen gemessen. Die Rotationen werden addiert. Außerdem wird pro Boid der counter um 1 erhöht. 
 
 Wenn der counter ungleich 0 ist, wird dann die neue Rotation berechnet. Dafür rechne ich erstmal den Mittelwert aus den Rotationen aus, indem man die addierten Rotationen durch den Counter rechnet. Davon nehme ich 10 Prozent und addiere dies mit 90 Prozent der eigenen Rotation. Dies bewirkt eine Anpassung an den anderen Boid, aber dadurch, dass man 90 Prozent von der eigenen Rotation nimmt, passiert die Anpassung nicht zu schnell. 
 
@@ -86,9 +86,13 @@ Wenn der counter ungleich 0 ist, wird dann die neue Rotation berechnet. Dafür r
 
 SetSwarmRotationGetAway bewirkt, eine Abstoßung zwischen den Boids, sobald sie sich zu nahe kommen.
 
+Damit die Boids sich abstoßen, wird als erste eine Liste von den Boids gemacht, die sich im Radius von 40 befinden. Von diesen Boids wird dann die Rotation gemessen und diese werden addiert. Außerdem misst man den Winkel zu den Nachbarn (DegreesToNeighbor). Außerdem wird der counter um 1 erhöht pro Boid. 
+
+Wenn all diese Werte vorhanden sind und der counter ungleich Null ist wird dann eine neue Rotation für den Boid berechnet. Dabei ist es wichtig, dass die neue Rotation ähnlich zu den Nachbarn ist, jedoch auch eine Abstoßung bewrikt.
+
+Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachbarn. Dies passiert, indem man die Rotation der Nachbarn durch den counter rechnet. Die 10 Prozent des Mittelwerts addiert man dann mit 90 Prozent der eigenen Rotation. Dazu wid jetzt noch 5 Porzent des Winkels zu den Nachbarn addiert. Daduch wird der Boid abgestoßen, jedoch bleibt er auch in der Nähe der anderen Boids. 
 
 ![GetAway version 2](https://user-images.githubusercontent.com/88386035/163673688-2af2a003-8236-4d92-89e0-84cb6e51db49.PNG)
-
 
 <a name="10"></a> turnAtWorldEdge:
 
