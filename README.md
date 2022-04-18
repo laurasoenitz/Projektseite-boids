@@ -101,7 +101,7 @@ Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachb
 ![3](https://user-images.githubusercontent.com/88386035/163673716-98b33937-0dda-4820-90d1-8982b5fb85d9.PNG)
 
  
-<a name="11"></a>  Reflexion des Projekts:
+## <a name="11"></a>  Reflexion des Projekts:
 
 
  
