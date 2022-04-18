@@ -54,7 +54,9 @@ Der Actor  ist ein Objekt, dass in der Greenfoot Welt existiert. Jeder Actor hat
  
 Der Smooth Mover ist eine Unterklasse von Actor. Dieser ermöglicht kleine präzise Bewegungen (z. B. Bewegungen von 1 Pixel oder weniger), die nicht an Präzision verlieren. Der Smooth Mover kommt schon mit bestimmten Funktionen, genau wie der Actor. Diese Funktionen stehen den Unterklassen zu Verfügung. 
 
-Zu dem Code des Smooth Mover habe ich zwei neue Codes hinzugefügt. Einmal die Funktion atWorldEdge. Mit dieser wird getestet, ob der Boid sich an einer der Kanten von der Welt befindet. Wenn dieses der Fall ist wird "true zurückgeben und wenn dies nicht der Fall ist wird "false" zurückgegeben.
+Zu dem Code des Smooth Mover habe ich zwei neue Codes hinzugefügt. 
+
+Einmal die Funktion atWorldEdge. Mit dieser wird getestet, ob der Boid sich an einer der Kanten von der Welt befindet. Wenn dieses der Fall ist wird "true" zurückgeben und wenn dies nicht der Fall ist wird "false" zurückgegeben.
 
  ![AtWorldEdge](https://user-images.githubusercontent.com/88386035/163636217-6b202c5e-2dcf-4655-a4c8-20adea4af3af.PNG)
 
