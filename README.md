@@ -31,24 +31,24 @@
 
 ## <a name="1"></a> Greenfoot
 
-Ich wollte das letzte Projekt ohne Blocksprache machen, da ich diese beim letzten Mal benutzt habe. Ich habe mich nach Absprache mit Herrn Buhl für Greenfoot entschieden. Greenfoot ist eine interaktive Java-Entwicklungsumgebung, die für Anfänger sehr gut geeignet ist. Dabei war mein Ziel das ich die Programmiersprache Java kennenlerne und vestehe. Die Entwicklung von Simulation und interaktiven Spielen ist mit Greenfoot gut zu erstellen und daher fand ich Greenfoot sehr ansprechend und habe es für mein Projekt ausgewählt.
+Ich wollte das letzte Projekt ohne Blocksprache machen, da ich diese beim letzten Mal benutzt habe. Ich habe mich nach Absprache mit Herrn Buhl für Greenfoot entschieden. Greenfoot ist eine interaktive Java-Entwicklungsumgebung, die für Anfänger sehr gut geeignet ist. Dabei war mein Ziel das ich die Programmiersprache Java kennenlerne und verstehe. Die Entwicklung von Simulation und interaktiven Spielen ist mit Greenfoot gut zu erstellen und daher fand ich Greenfoot sehr ansprechend und habe es für mein Projekt ausgewählt.
 
 ## <a name="2"></a> Idee
  
 Ich habe mich für die Simulation "Boids" entschieden. Diese simuliert das Schwarmverhalten von Vögeln. 
 
 Dabei soll jeder Vogel bei seinem Flug die folgenden drei Regeln befolgen:
-1. Separation: Gehe auf Abstand zu anderen Vögeln, wenn du ihnen zu nahe kommst.
+1. Separation: Gehe auf Abstand zu anderen Vögeln, wenn du ihnen zu nahekommst.
 2. Angleichung: Richte deinen Flug in die mittlere Flugrichtung der anderen Vögel in der Nähe aus.
 3. Zusammenhalt: Bewege dich auf die mittlere Position der anderen Vögel in deiner Nähe zu.
 
-Bei diesem Algoithmus ergibt sich für das Flugverhalten der Vögel ein sehr interessantes Bewegungsmuster. 
+Bei diesem Algorithmus ergibt sich für das Flugverhalten der Vögel ein sehr interessantes Bewegungsmuster. 
 
 ## <a name="3"></a> Umsetzung der Idee
 
 ### <a name="4"></a>  Actor: 
  
-Der Actor  ist ein Objekt, dass in der Greenfoot Welt existiert. Jeder Actor hat einen Ort in der Welt und ein Erscheinungsbild. Jedes Objekt, das in der Welt erscheinen soll muss eine Unterklasse vom Actor sein. Die Actor-Methoden stehen allen Unterklassen von Actor zur Verfügung. Die Unterklassen können ihr eigenes Verhalten und Ausssehen definieren.
+Der Actor ist ein Objekt, dass in der Greenfoot Welt existiert. Jeder Actor hat einen Ort in der Welt und ein Erscheinungsbild. Jedes Objekt, das in der Welt erscheinen soll, muss eine Unterklasse vom Actor sein. Die Actor-Methoden stehen allen Unterklassen von Actor zur Verfügung. Die Unterklassen können ihr eigenes Verhalten und Ausssehen definieren.
  
 ### <a name="5"></a>  Smooth Mover:
  
@@ -56,7 +56,7 @@ Der Smooth Mover ist eine Unterklasse von Actor. Dieser ermöglicht kleine präz
 
 Zu dem Code des Smooth Mover habe ich zwei neue Codes hinzugefügt. 
 
-Einmal die Funktion atWorldEdge. Mit dieser wird getestet, ob der Boid sich an einer der Kanten von der Welt befindet. Wenn dieses der Fall ist wird "true" zurückgeben und wenn dies nicht der Fall ist wird "false" zurückgegeben.
+Einmal die Funktion atWorldEdge. Mit dieser wird getestet, ob der Boid sich an einer der Kanten von der Welt befindet. Wenn dieses der Fall ist, wird "true" zurückgeben und wenn dies nicht der Fall ist wird "false" zurückgegeben.
 
  ![AtWorldEdge](https://user-images.githubusercontent.com/88386035/163636217-6b202c5e-2dcf-4655-a4c8-20adea4af3af.PNG)
 
@@ -64,7 +64,7 @@ Außerdem habe ich noch die Funktion hinzugefügt, die die Winkel zu bestimmten 
 
 ![Degree ding](https://user-images.githubusercontent.com/88386035/163636303-d29fc047-8837-4452-90a4-864e86100e62.PNG)
 
-Diese beiden Funktionen sind später wichtig um den Code für den Boid zu verstehen.
+Diese beiden Funktionen sind später wichtig, um den Code für den Boid zu verstehen.
 
 ### <a name="6"></a>  Boid:
  
@@ -86,7 +86,7 @@ Wenn der counter ungleich 0 ist, wird dann die neue Rotation berechnet. Dafür r
 
 <a name="9"></a> setSwarmRotationGetAway:
 
-SetSwarmRotationGetAway bewirkt, eine Abstoßung zwischen den Boids, sobald sie sich zu nahe kommen.
+SetSwarmRotationGetAway bewirkt, eine Abstoßung zwischen den Boids, sobald sie sich zu nahekommen.
 
 Damit die Boids sich abstoßen, wird als erste eine Liste von den Boids gemacht, die sich im Radius von 40 befinden. Von diesen Boids wird dann die Rotation gemessen und diese werden addiert. Außerdem misst man den Winkel zu den Nachbarn (DegreesToNeighbor).  Der counter wird pro Boid in der Liste um 1 erhöht. 
 
@@ -102,9 +102,9 @@ turnAtWorldEdge führt dazu, dass der Boid sich von der Kante und der Ecke entfe
 
 Ersteinmal wird getestet, ob der Boid sich überhaupt an einer der 4 Kanten befindet. Dies passiert mit der Funktion atWorldEdge aus dem Smooth Mover. Wenn der Boid sich dann an der Kante befindet, werden die nächsten Schritte durchgeführt. 
 
-Ich prüfe anhand der X- und Y-Koordninaten des Boids in welcher Kante oder Ecke sich der Boid befindet. Danach halte ich das Ergebnis der Prüfung als String in einer Variable fest. Anschließend lass ich mir eine Zufallszahl herausgeben, die den Austrittswinkel von der Kante oder Ecke zufällig geschehen lässt. Mit Hilfe des Schwitch Befehls wird dann abhängig vom Inhalt der Variable die Austrittsrotation berechnet. Das break im Code sorgt dafür, dass sobald die richtige Ecke gefunden der Switch Befehl nicht weiter durchgegangen wird. 
+Ich prüfe anhand der X- und Y-Koordninaten des Boids in welcher Kante oder Ecke sich der Boid befindet. Danach halte ich das Ergebnis der Prüfung als String in einer Variable fest. Anschließend lass ich mir eine Zufallszahl herausgeben, die den Austrittswinkel von der Kante oder Ecke zufällig geschehen lässt. Mit Hilfe des Schwitch Befehls wird dann abhängig vom Inhalt der Variable die Austrittsrotation berechnet. Das break im Code sorgt dafür, dass so bald die richtige Ecke gefunden der Switch Befehl nicht weiter durchgegangen wird. 
 
-Diese Funktion ermöglicht, dass der Boid sich von der Wand mit einer anderen zufälligen Ausfallswinkel abgestoßen wird. 
+Diese Funktion ermöglicht, dass der Boid sich von der Wand mit einem anderen zufälligen Ausfallswinkel abgestoßen wird. 
 
 ![1](https://user-images.githubusercontent.com/88386035/163673705-af37f9d5-a8db-4bf8-bdb9-6d068c5b6b44.PNG)
 ![2](https://user-images.githubusercontent.com/88386035/163673715-bdf5ff89-f597-4d44-a29d-7b22ce7371ea.PNG)
@@ -113,7 +113,7 @@ Diese Funktion ermöglicht, dass der Boid sich von der Wand mit einer anderen zu
  
 ## <a name="11"></a>  Reflexion des Projekts:
 
-Die Boids efüllen alle drei Regeln die sie bei dieser Simulation befolgen sollen. Mit mehr Zeit hätte man jetzt noch das Problem lösen können das sie sich andauernd ständig gegenseitig anpassen. Dadurch befinden sie sich immer noch sehr oft zu nah beeinander und bewegen sich dann längere Zeit auf einem Fleck. Dies könnte man noch verbessern, indem man die Boids in eine Rangfolge setzt und es so einen Anführer gibt, an den sich dann alle anpassen. Der Anführer könnte dann auch immer wieder wechseln, wie bei einen richtigen Vogelschwarm. Außerdem könnte man dann auch eventuell das Porblem lösen, dass manchmal einer sich vom Schwarm entfernt. Die Simulation könnte so noch besser funktionieren. Trotzdem ist meiner Meinung nach das Projekt ganz gut gelungen, trotz meiner zuerst wenigen Kentnisse von Java. 
+Die Boids efüllen alle drei Regeln die sie bei dieser Simulation befolgen sollen. Mit mehr Zeit hätte man jetzt noch das Problem lösen können das sie sich andauernd ständig gegenseitig anpassen. Dadurch befinden sie sich immer noch sehr oft zu nah beeinander und bewegen sich dann längere Zeit auf einem Fleck. Dies könnte man noch verbessern, indem man die Boids in eine Rangfolge setzt und es so einen Anführer gibt, an den sich dann alle anpassen. Der Anführer könnte dann auch immer wieder wechseln, wie bei einem richtigen Vogelschwarm. Außerdem könnte man dann auch eventuell das Porblem lösen, dass manchmal einer sich vom Schwarm entfernt. Die Simulation könnte so noch besser funktionieren. Trotzdem ist meiner Meinung nach das Projekt ganz gut gelungen, trotz meiner zuerst wenigen Kentnisse von Java. 
 
 ## <a name="12"></a> Stundenblog
 
