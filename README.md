@@ -112,9 +112,8 @@ Ecke:
  
 ## <a name="11"></a>  Reflexion des Projekts:
 
-Die Boids efüllen alle drei Regeln die sie bei dieser Simulation befolgen sollen. Mit mehr Zeit hätte man jetzt noch das Problem lösen können das sie sich andauernd ständig gegenseitig anpassen. Dadurch befinden sie sich immer noch sehr oft zu nah beeinander und bewegen sich dann längere Zeit auf einem Fleck. Dies könnte man noch verbessern, indem man die Boids in eine Rangfolge setzt und es so einen Anführer gibt, an den sich dann alle anpassen. Der Anführer könnte dann auch immer wieder wechseln, wie bei einen richtigen Vogelschwarm. Außerdem könnte man dann auch eventuell das Porblem lösen, dass manchmal einer sich vom Schwarm entfernt. Dadurch wird das Problem gelöst werden und die Simulation würde noch besser funktionieren. Trotzdem ist meiner Meinung nach das Projekt ganz gut gelungen, trotz meiner zuerst wenigen Kentnisse von Java. 
+Die Boids efüllen alle drei Regeln die sie bei dieser Simulation befolgen sollen. Mit mehr Zeit hätte man jetzt noch das Problem lösen können das sie sich andauernd ständig gegenseitig anpassen. Dadurch befinden sie sich immer noch sehr oft zu nah beeinander und bewegen sich dann längere Zeit auf einem Fleck. Dies könnte man noch verbessern, indem man die Boids in eine Rangfolge setzt und es so einen Anführer gibt, an den sich dann alle anpassen. Der Anführer könnte dann auch immer wieder wechseln, wie bei einen richtigen Vogelschwarm. Außerdem könnte man dann auch eventuell das Porblem lösen, dass manchmal einer sich vom Schwarm entfernt. Die Simulation könnte so noch besser funktionieren. Trotzdem ist meiner Meinung nach das Projekt ganz gut gelungen, trotz meiner zuerst wenigen Kentnisse von Java. 
 
- 
 ## <a name="12"></a> Stundenblog
 
 Der Link zu meinen Stundenblog des zweiten Projekts:
