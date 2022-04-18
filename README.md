@@ -92,7 +92,7 @@ Damit die Boids sich abstoßen, wird als erste eine Liste von den Boids gemacht,
 
 Wenn all diese Werte vorhanden sind und der counter ungleich Null ist wird dann eine neue Rotation für den Boid berechnet. Dabei ist es wichtig, dass die neue Rotation ähnlich zu den Nachbarn ist, jedoch auch eine Abstoßung bewrikt.
 
-Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachbarn. Dies passiert, indem man die Rotation der Nachbarn durch den counter rechnet. Die 10 Prozent des Mittelwerts addiert man dann mit 90 Prozent der eigenen Rotation. Dazu wid jetzt noch 5 Porzent des Winkels zu den Nachbarn addiert. Daduch wird der Boid abgestoßen, jedoch bleibt er auch in der Nähe der anderen Boids. 
+Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachbarn. Der Mittelwert wird berechnet, indem man die Rotation der Nachbarn durch den counter rechnet. Die 10 Prozent des Mittelwerts addiert man dann mit 90 Prozent der eigenen Rotation. Dazu wid jetzt noch 5 Prozent des Winkels zu den Nachbarn addiert. Daduch wird der Boid abgestoßen, jedoch bleibt er auch in der Nähe der anderen Boids. 
 
 ![GetAway version 2](https://user-images.githubusercontent.com/88386035/163673688-2af2a003-8236-4d92-89e0-84cb6e51db49.PNG)
 
