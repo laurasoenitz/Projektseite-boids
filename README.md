@@ -100,10 +100,11 @@ Um dies zu erreichen, nehme ich 10 Prozent vom Mittelwert der Rotation der Nachb
 
 turnAtWorldEdge führt dazu, dass der Boid sich von der Kante und der Ecke entfernt. 
 
-Ersteinmal wird getestet, ob der Boid sich überhaupt an einer der 4 Kanten befindet. Dies passiert mit der Funktion atWorldEdge aus dem Smooth Mover. Wenn dies 
-Kante: 
+Ersteinmal wird getestet, ob der Boid sich überhaupt an einer der 4 Kanten befindet. Dies passiert mit der Funktion atWorldEdge aus dem Smooth Mover. Wenn der Boid sich dann an der Kante befindet, werden die nächsten Schritte durchgeführt. 
 
-Ecke:
+Ich prüfe anhand der X- und Y-Koordninaten des Boids in welcher Kante oder Ecke sich der Boid befindet. Danach halte ich das Ergebnis der Prüfung als String in einer Variable fest. Anschließend lass ich mir eine Zufallszahl herausgeben, die den Austrittswinkel von der Kante oder Ecke zufällig geschehen lässt. Mit Hilfe des Schwitch Befehls wird dann abhängig vom Inhalt der Variable die Austrittsrotation berechnet. Das break im Code sorgt dafür, dass sobald die richtige Ecke gefunden der Switch Befehl nicht weiter durchgegangen wird. 
+
+Diese Funktion ermöglicht, dass der Boid sich von der Wand mit einer anderen zufälligen Ausfallswinkel abgestoßen wird. 
 
 ![1](https://user-images.githubusercontent.com/88386035/163673705-af37f9d5-a8db-4bf8-bdb9-6d068c5b6b44.PNG)
 ![2](https://user-images.githubusercontent.com/88386035/163673715-bdf5ff89-f597-4d44-a29d-7b22ce7371ea.PNG)
